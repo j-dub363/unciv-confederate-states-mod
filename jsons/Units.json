@@ -10,7 +10,7 @@
     "requiredTech": "Rifling",
     "uniques": [
       "Rough Terrain Penalty Nullified",
-      "[+15]% Strength in [Rough terrain]",
+      "[+15]% Strength <in [Hill] tiles>",
       "May heal outside friendly territory"
     ]
   },
@@ -27,7 +27,7 @@
       "Can move after attacking",
       "[+1] Sight",
       "Pillage takes no extra movement",
-      "[-10]% Strength when defending"
+      "[-10]% Strength <when defending>"
     ]
   },
   {
@@ -46,7 +46,7 @@
       "Invisible to others <in [Jungle] tiles>",
       "Double movement in [Forest]",
       "Double movement in [Hill]",
-      "[+25]% Strength when defending in [Rough terrain]",
+      "[+25]% Strength <when defending in [Hill] tiles>",
       "Ignore terrain cost"
     ]
   },
@@ -64,7 +64,7 @@
     "uniques": [
       "Pillaging gives double Gold",
       "Can enter foreign coast tiles without open borders",
-      "[+20]% Strength when defending"
+      "[+20]% Strength <when defending>"
     ]
   },
   {
@@ -77,8 +77,8 @@
     "cost": 320,
     "requiredTech": "Steam Power",
     "uniques": [
-      "[+30]% Strength vs [WaterRanged] units",
-      "[+25]% Strength when defending",
+      "[+30]% Strength <vs [WaterRanged] units>",
+      "[+25]% Strength <when defending>",
       "Double movement in [Coast]"
     ]
   },
@@ -95,7 +95,7 @@
     "requiredTech": "Navigation",
     "uniques": [
       "Earns [50]% of killed unit's Strength as Gold",
-      "+1 Sight",
+      "[+1] Sight",
       "May heal outside friendly territory"
     ]
   },

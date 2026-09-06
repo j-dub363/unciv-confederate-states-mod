@@ -1,15 +1,1 @@
-[
-  {
-    "name": "Rebellion",
-    "text": "Civil unrest and desertion have broken out among your forces!",
-    "choices": [
-      {
-        "text": "Suppress the uprising",
-        "uniques": [
-          "A [Barbarian] rebels",
-          "[-10]% [Gold]"
-        ]
-      }
-    ]
-  }
-]
+[]

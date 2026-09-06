@@ -24,7 +24,6 @@
     "requiredTech": "Military Science",
     "uniques": [
       "Can move after attacking",
-      "[+1] Sight",
       "Pillage takes no extra movement"
     ]
   },
@@ -42,8 +41,6 @@
     "uniques": [
       "Invisible to others <in [Forest] tiles>",
       "Invisible to others <in [Jungle] tiles>",
-      "Double movement in [Forest]",
-      "Double movement in [Hill]",
       "Ignore terrain cost"
     ]
   },
@@ -59,8 +56,7 @@
     "cost": 150,
     "requiredTech": "Navigation",
     "uniques": [
-      "Pillaging gives double Gold",
-      "Can enter foreign coast tiles without open borders"
+      "Pillaging gives double Gold"
     ]
   },
   {
@@ -72,9 +68,7 @@
     "strength": 55,
     "cost": 320,
     "requiredTech": "Steam Power",
-    "uniques": [
-      "Double movement in [Coast]"
-    ]
+    "uniques": []
   },
   {
     "name": "CSS Alabama",
@@ -88,7 +82,6 @@
     "cost": 200,
     "requiredTech": "Navigation",
     "uniques": [
-      "[+1] Sight",
       "May heal outside friendly territory"
     ]
   },
@@ -104,8 +97,7 @@
     "cost": 210,
     "requiredTech": "Navigation",
     "uniques": [
-      "Can move through impassable ice tiles",
-      "Pillaging costs 0 movement"
+      "Can move through impassable ice tiles"
     ]
   },
   {
@@ -128,8 +120,7 @@
     "cost": -1,
     "uniques": [
       "Great Person",
-      "Can start a Golden Age",
-      "Can construct [Citadel]"
+      "Can start a Golden Age"
     ]
   }
 ]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Confederate States",
+    "leaderName": "Jefferson Davis",
+    "adjective": ["Confederate"],
+    "startIntroPart1": "You lead the Confederate States during a time of intense conflict.",
+    "startIntroPart2": "Command your armies wisely and defend your territory.",
+    "declaringWar": "States' rights and our sovereignty must be defended at all costs!",
+    "outerColor": [128, 128, 128],
+    "innerColor": [239, 183, 0],
+    "uniqueName": "Home Defense & Cotton Trade",
+    "uniques": [
+      "[+15]% Strength when fighting in [Friendly] territory",
+      "+1 Gold from [Plantation] tiles"
+    ],
+    "cities": [
+      "Richmond", "Montgomery", "Charleston", "Atlanta", "New Orleans",
+      "Mobile", "Savannah", "Nashville", "Memphis", "Wilmington",
+      "Little Rock", "Fort Smith", "Austin", "San Antonio", "Galveston", "Jackson"
+    ]
+  }
+]

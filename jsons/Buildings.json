@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Supply Depot",
+    "replaces": "Armory",
+    "uniqueTo": "Confederate States",
+    "cost": 160,
+    "maintenance": 1,
+    "requiredTech": "Gunpowder",
+    "requiredBuilding": "Barracks",
+    "uniques": [
+      "+15 Experience for land units trained in this city",
+      "+10% Production when constructing [Gunpowder] units in this city"
+    ]
+  },
+  {
+    "name": "Blockade Runner Port",
+    "replaces": "Harbor",
+    "uniqueTo": "Confederate States",
+    "cost": 120,
+    "maintenance": 1,
+    "requiredTech": "Compass",
+    "uniques": [
+      "+2 Gold",
+      "+1 Production from [Water] tiles",
+      "Connects trade routes over water"
+    ]
+  },
+  {
+    "name": "State Arsenal",
+    "replaces": "Military Academy",
+    "uniqueTo": "Confederate States",
+    "cost": 300,
+    "maintenance": 2,
+    "requiredTech": "Military Science",
+    "requiredBuilding": "Supply Depot",
+    "uniques": [
+      "+15 Experience for land units trained in this city",
+      "+15% Production when constructing [Military] units in this city"
+    ]
+  }
+]

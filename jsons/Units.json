@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Foot Cavalry",
+    "unitType": "Melee",
+    "replaces": "Rifleman",
+    "uniqueTo": "Confederate States",
+    "movement": 3,
+    "strength": 38,
+    "cost": 220,
+    "requiredTech": "Rifling",
+    "uniques": [
+      "Rough Terrain Penalty Nullified",
+      "[+15]% Strength in [Rough terrain]",
+      "May heal outside friendly territory"
+    ]
+  },
+  {
+    "name": "Stuart's Cavalry",
+    "unitType": "Mounted",
+    "replaces": "Cavalry",
+    "uniqueTo": "Confederate States",
+    "movement": 5,
+    "strength": 36,
+    "cost": 230,
+    "requiredTech": "Military Science",
+    "uniques": [
+      "Can move after attacking",
+      "[+1] Sight",
+      "Pillage takes no extra movement",
+      "[-10]% Strength when defending"
+    ]
+  },
+  {
+    "name": "Cherokee Rifles",
+    "unitType": "Ranged",
+    "replaces": "Gatling Gun",
+    "uniqueTo": "Confederate States",
+    "movement": 3,
+    "strength": 26,
+    "rangedStrength": 38,
+    "range": 2,
+    "cost": 200,
+    "requiredTech": "Industrialization",
+    "uniques": [
+      "Invisible to others <in [Forest] tiles>",
+      "Invisible to others <in [Jungle] tiles>",
+      "Double movement in [Forest]",
+      "Double movement in [Hill]",
+      "[+25]% Strength when defending in [Rough terrain]",
+      "Ignore terrain cost"
+    ]
+  },
+  {
+    "name": "Blockade Runner",
+    "unitType": "WaterRanged",
+    "replaces": "Privateer",
+    "uniqueTo": "Confederate States",
+    "movement": 6,
+    "strength": 28,
+    "rangedStrength": 28,
+    "range": 2,
+    "cost": 150,
+    "requiredTech": "Navigation",
+    "uniques": [
+      "Pillaging gives double Gold",
+      "Can enter foreign coast tiles without open borders",
+      "[+20]% Strength when defending"
+    ]
+  },
+  {
+    "name": "CSS Virginia",
+    "unitType": "WaterMelee",
+    "replaces": "Ironclad",
+    "uniqueTo": "Confederate States",
+    "movement": 3,
+    "strength": 55,
+    "cost": 320,
+    "requiredTech": "Steam Power",
+    "uniques": [
+      "[+30]% Strength vs [WaterRanged] units",
+      "[+25]% Strength when defending",
+      "Double movement in [Coast]"
+    ]
+  },
+  {
+    "name": "CSS Alabama",
+    "unitType": "WaterRanged",
+    "replaces": "Frigate",
+    "uniqueTo": "Confederate States",
+    "movement": 6,
+    "strength": 32,
+    "rangedStrength": 36,
+    "range": 2,
+    "cost": 200,
+    "requiredTech": "Navigation",
+    "uniques": [
+      "Earns [50]% of killed unit's Strength as Gold",
+      "+1 Sight",
+      "May heal outside friendly territory"
+    ]
+  },
+  {
+    "name": "CSS Shenandoah",
+    "unitType": "WaterRanged",
+    "replaces": "Frigate",
+    "uniqueTo": "Confederate States",
+    "movement": 7,
+    "strength": 30,
+    "rangedStrength": 34,
+    "range": 2,
+    "cost": 210,
+    "requiredTech": "Navigation",
+    "uniques": [
+      "Can move through impassable ice tiles",
+      "Pillaging costs 0 movement",
+      "Earns [50]% of killed unit's Strength as Gold"
+    ]
+  },
+  {
+    "name": "Conscript Militia",
+    "unitType": "Civilian",
+    "replaces": "Worker",
+    "uniqueTo": "Confederate States",
+    "movement": 2,
+    "cost": 40,
+    "uniques": [
+      "Can build improvements",
+      "[-10]% Strength <when Empire is Unhappy>",
+      "Triggers a [Rebellion] event <upon turn end> <when Empire is Unhappy>"
+    ]
+  },
+  {
+    "name": "Confederate General",
+    "unitType": "Civilian",
+    "replaces": "Great General",
+    "uniqueTo": "Confederate States",
+    "movement": 3,
+    "cost": -1,
+    "uniques": [
+      "Great Person",
+      "[+20]% Strength bonus for [Military] units within [2] tiles",
+      "Can start a Golden Age",
+      "Can construct [Citadel]"
+    ]
+  }
+]

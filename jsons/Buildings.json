@@ -8,8 +8,7 @@
     "requiredTech": "Gunpowder",
     "requiredBuilding": "Barracks",
     "uniques": [
-      "+15 Experience for land units trained in this city",
-      "+10% Production when constructing [Gunpowder] units in this city"
+      "+15 Experience for land units trained in this city"
     ]
   },
   {
@@ -20,9 +19,7 @@
     "maintenance": 1,
     "requiredTech": "Compass",
     "uniques": [
-      "+2 Gold",
-      "+1 Production from [Water] tiles",
-      "Connects trade routes over water"
+      "+2 Gold"
     ]
   },
   {
@@ -34,8 +31,7 @@
     "requiredTech": "Military Science",
     "requiredBuilding": "Supply Depot",
     "uniques": [
-      "+15 Experience for land units trained in this city",
-      "+15% Production when constructing [Military] units in this city"
+      "+15 Experience for land units trained in this city"
     ]
   }
 ]

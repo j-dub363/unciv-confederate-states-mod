@@ -10,7 +10,6 @@
     "requiredTech": "Rifling",
     "uniques": [
       "Rough Terrain Penalty Nullified",
-      "[+15]% Strength <in [Hill] tiles>",
       "May heal outside friendly territory"
     ]
   },
@@ -26,8 +25,7 @@
     "uniques": [
       "Can move after attacking",
       "[+1] Sight",
-      "Pillage takes no extra movement",
-      "[-10]% Strength <when defending>"
+      "Pillage takes no extra movement"
     ]
   },
   {
@@ -46,7 +44,6 @@
       "Invisible to others <in [Jungle] tiles>",
       "Double movement in [Forest]",
       "Double movement in [Hill]",
-      "[+25]% Strength <when defending in [Hill] tiles>",
       "Ignore terrain cost"
     ]
   },
@@ -63,8 +60,7 @@
     "requiredTech": "Navigation",
     "uniques": [
       "Pillaging gives double Gold",
-      "Can enter foreign coast tiles without open borders",
-      "[+20]% Strength <when defending>"
+      "Can enter foreign coast tiles without open borders"
     ]
   },
   {
@@ -77,8 +73,6 @@
     "cost": 320,
     "requiredTech": "Steam Power",
     "uniques": [
-      "[+30]% Strength <vs [WaterRanged] units>",
-      "[+25]% Strength <when defending>",
       "Double movement in [Coast]"
     ]
   },
@@ -94,7 +88,6 @@
     "cost": 200,
     "requiredTech": "Navigation",
     "uniques": [
-      "Earns [50]% of killed unit's Strength as Gold",
       "[+1] Sight",
       "May heal outside friendly territory"
     ]
@@ -112,8 +105,7 @@
     "requiredTech": "Navigation",
     "uniques": [
       "Can move through impassable ice tiles",
-      "Pillaging costs 0 movement",
-      "Earns [50]% of killed unit's Strength as Gold"
+      "Pillaging costs 0 movement"
     ]
   },
   {
@@ -124,9 +116,7 @@
     "movement": 2,
     "cost": 40,
     "uniques": [
-      "Can build improvements",
-      "[-10]% Strength <when Empire is Unhappy>",
-      "Triggers a [Rebellion] event <upon turn end> <when Empire is Unhappy>"
+      "Can build improvements"
     ]
   },
   {
@@ -138,7 +128,6 @@
     "cost": -1,
     "uniques": [
       "Great Person",
-      "[+20]% Strength bonus for [Military] units within [2] tiles",
       "Can start a Golden Age",
       "Can construct [Citadel]"
     ]

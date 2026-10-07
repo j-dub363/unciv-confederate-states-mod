@@ -10,10 +10,9 @@
     "innerColor": [242, 197, 51],
     "uniqueName": "Southern Defense",
     "uniques": [
-      "[15]% Strength bonus when fighting in own territory",
-      "[25]% bonus to [Gold] from [Plantation] tiles",
-      "[20]% bonus to [Production] of [Military] units",
-      "[-15]% Loyalty from foreign civilizations"
+      "[10]% Strength bonus when fighting in own territory",
+      "[15]% bonus to [Gold] from [Plantation] tiles",
+      "[-10]% Loyalty from foreign civilizations"
     ],
     "cities": [
       "Richmond",

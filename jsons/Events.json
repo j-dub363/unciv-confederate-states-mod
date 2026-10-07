@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "name": "Rebellion",
+    "trigger": "CityHasCitizenUnhappy",
+    "effect": [
+      "-10% [Gold] in this city",
+      "-10% [Production] in this city"
+    ],
+    "uniques": [
+      "May trigger once per city"
+    ]
+  }
+]

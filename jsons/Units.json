@@ -1,1 +1,121 @@
-[{"name":"Foot Cavalry","unitType":"Melee","replaces":"Musketman","uniqueTo":"Confederate States","movement":3,"strength":32,"cost":120,"requiredTech":"Gunpowder","uniques":[]},{"name":"Stuart's Cavalry","unitType":"Mounted","replaces":"Cavalry","uniqueTo":"Confederate States","movement":5,"strength":36,"cost":230,"requiredTech":"Horseback Riding","uniques":["Can move after attacking"]},{"name":"Cherokee Rifles","unitType":"Ranged","replaces":"Musketeer","uniqueTo":"Confederate States","movement":2,"strength":26,"rangedStrength":28,"range":1,"cost":90,"requiredTech":"Gunpowder","uniques":[]},{"name":"Blockade Runner","unitType":"WaterRanged","replaces":"Caravel","uniqueTo":"Confederate States","movement":4,"strength":20,"rangedStrength":25,"range":1,"cost":100,"requiredTech":"Sailing","uniques":[]},{"name":"CSS Virginia","unitType":"WaterMelee","replaces":"Trireme","uniqueTo":"Confederate States","movement":3,"strength":35,"cost":100,"requiredTech":"Sailing","uniques":[]},{"name":"CSS Alabama","unitType":"WaterRanged","replaces":"Galley","uniqueTo":"Confederate States","movement":4,"strength":20,"rangedStrength":22,"range":1,"cost":80,"requiredTech":"Sailing","uniques":[]},{"name":"CSS Shenandoah","unitType":"WaterRanged","replaces":"Frigate","uniqueTo":"Confederate States","movement":5,"strength":22,"rangedStrength":24,"range":1,"cost":110,"requiredTech":"Sailing","uniques":[]},{"name":"Conscript Militia","unitType":"Civilian","replaces":"Worker","uniqueTo":"Confederate States","movement":2,"cost":40,"uniques":[]},{"name":"Confederate General","unitType":"Civilian","replaces":"Great General","uniqueTo":"Confederate States","movement":3,"cost":-1,"uniques":["Great Person"]}]
+[
+  {
+    "name": "Foot Cavalry",
+    "unitType": "Melee",
+    "replaces": "Musketman",
+    "uniqueTo": "Confederate States",
+    "movement": 3,
+    "strength": 32,
+    "cost": 120,
+    "requiredTech": "Gunpowder",
+    "upgradesTo": "Stuart's Cavalry",
+    "uniques": []
+  },
+  {
+    "name": "Stuart's Cavalry",
+    "unitType": "Mounted",
+    "replaces": "Cavalry",
+    "uniqueTo": "Confederate States",
+    "movement": 5,
+    "strength": 36,
+    "cost": 230,
+    "requiredTech": "Horseback Riding",
+    "upgradesTo": "Dragoon",
+    "uniques": ["Can move after attacking"]
+  },
+  {
+    "name": "Cherokee Rifles",
+    "unitType": "Ranged",
+    "replaces": "Musketeer",
+    "uniqueTo": "Confederate States",
+    "movement": 2,
+    "strength": 26,
+    "rangedStrength": 28,
+    "range": 1,
+    "cost": 90,
+    "requiredTech": "Gunpowder",
+    "upgradesTo": "Rifleman",
+    "uniques": ["Bonus vs ranged [33]%"]
+  },
+  {
+    "name": "Blockade Runner",
+    "unitType": "WaterRanged",
+    "replaces": "Caravel",
+    "uniqueTo": "Confederate States",
+    "movement": 4,
+    "strength": 20,
+    "rangedStrength": 25,
+    "range": 1,
+    "cost": 100,
+    "requiredTech": "Sailing",
+    "upgradesTo": "Privateer",
+    "uniques": ["Can trade with other civilizations", "[33]% chance to survive"]
+  },
+  {
+    "name": "CSS Virginia",
+    "unitType": "WaterMelee",
+    "replaces": "Trireme",
+    "uniqueTo": "Confederate States",
+    "movement": 3,
+    "strength": 35,
+    "cost": 100,
+    "requiredTech": "Sailing",
+    "upgradesTo": "Ironclad",
+    "uniques": ["Immune to ranged attacks"]
+  },
+  {
+    "name": "CSS Alabama",
+    "unitType": "WaterRanged",
+    "replaces": "Galley",
+    "uniqueTo": "Confederate States",
+    "movement": 4,
+    "strength": 20,
+    "rangedStrength": 22,
+    "range": 1,
+    "cost": 80,
+    "requiredTech": "Sailing",
+    "upgradesTo": "Frigate",
+    "uniques": ["[25]% combat bonus when fighting barbarians", "Can see boats invisible to others"]
+  },
+  {
+    "name": "CSS Shenandoah",
+    "unitType": "WaterRanged",
+    "replaces": "Frigate",
+    "uniqueTo": "Confederate States",
+    "movement": 5,
+    "strength": 22,
+    "rangedStrength": 24,
+    "range": 1,
+    "cost": 110,
+    "requiredTech": "Sailing",
+    "upgradesTo": "Frigate",
+    "uniques": ["Can move after attacking"]
+  },
+  {
+    "name": "Slave",
+    "unitType": "Civilian",
+    "replaces": "Worker",
+    "uniqueTo": "Confederate States",
+    "movement": 1,
+    "cost": 30,
+    "uniques": ["Can construct roads and railroads", "Can remove terrain features", "[-30]% work speed"]
+  },
+  {
+    "name": "Conscript Militia",
+    "unitType": "Civilian",
+    "replaces": "Scout",
+    "uniqueTo": "Confederate States",
+    "movement": 2,
+    "cost": 40,
+    "uniques": ["Can construct roads and railroads", "Can remove terrain features"]
+  },
+  {
+    "name": "Confederate General",
+    "unitType": "Civilian",
+    "replaces": "Great General",
+    "uniqueTo": "Confederate States",
+    "movement": 3,
+    "cost": -1,
+    "uniques": ["Great Person", "[15]% faster army movement in own territory", "All units grant [10]% exp to melee and ranged units when in the same tile"]
+  }
+]

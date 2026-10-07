@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "name": "Supply Depot",
+    "replaces": "Armory",
+    "uniqueTo": "Confederate States",
+    "cost": 90,
+    "production": 2,
+    "requiredTech": "Gunpowder",
+    "uniques": [
+      "[+15]% Production when constructing [Gunpowder] units in this city",
+      "[+10]% Production when constructing [Melee] and [Ranged] units in this city"
+    ]
+  },
+  {
+    "name": "Blockade Runner Port",
+    "replaces": "Harbor",
+    "uniqueTo": "Confederate States",
+    "cost": 90,
+    "gold": 2,
+    "requiredTech": "Compass",
+    "uniques": [
+      "[+15]% Gold from [Sea] resources",
+      "[+10]% Production when constructing [Water] units in this city"
+    ]
+  },
+  {
+    "name": "State Arsenal",
+    "replaces": "Military Academy",
+    "uniqueTo": "Confederate States",
+    "cost": 120,
+    "production": 3,
+    "requiredTech": "Metallurgy",
+    "uniques": [
+      "[+15]% Production when constructing [Melee] and [Ranged] units in this city",
+      "[+10]% Strength for units trained in this city"
+    ]
+  }
+]
